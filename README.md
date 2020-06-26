@@ -11,7 +11,7 @@
 Run below commands for docker hub
 -----------------------------------
 docker tag aws-csr_spring-boot:latest mail4dhananjaya/aws-csr_spring-boot:latest
-docker push mail4dhananjaya/aws-csr_spring-boot:latest
+docker push mail4dhananjaya/aws-csr_spring-boot:latest  [IMG Location:  docker.io/mail4dhananjaya/aws-csr_spring-boot]
 
 
 
