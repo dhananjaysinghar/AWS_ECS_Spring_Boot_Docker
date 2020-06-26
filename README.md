@@ -18,8 +18,8 @@ docker push mail4dhananjaya/aws-csr_spring-boot:latest
 AWS CLI Commands
 ----------
 1.  aws configure [set user name and password to aws cli]
-2.	aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 079371596533.dkr.ecr.us-east-2.amazonaws.com
-3.	docker tag realspeed:latest 079371596533.dkr.ecr.us-east-2.amazonaws.com/realspeed:latest
-4.	docker push 079371596533.dkr.ecr.us-east-2.amazonaws.com/realspeed:latest
+2.	aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin <accID>.dkr.ecr.us-east-2.amazonaws.com
+3.	docker tag realspeed:latest <accID>.dkr.ecr.us-east-2.amazonaws.com/realspeed:latest
+4.	docker push <accID>.dkr.ecr.us-east-2.amazonaws.com/realspeed:latest
 
 ~~~
